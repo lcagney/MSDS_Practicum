@@ -20,6 +20,11 @@ The data was scraped from AO3 and cleaned until only lemmatized nounds remained.
 | 20 | Time Lords |
 | 12 | Friends of the Doctor | 
 
+## Stories in each Topic
+![storydist](https://github.com/lcagney/MSDS_Practicum/blob/c4e58fb9e231a434c3748ac2bbc88ce14d6a2de5/Images/storycountsbytopic.jpg)
+
+No stories had the dominant topic for Topics 3, 8, 9, 10, 15, 25.
+
 ## Files Included
 The following files are included as part of my submission:
 - Jupyter Notbook: This file contains all code used to clean, explore, and model the data.
