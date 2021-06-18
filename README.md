@@ -3,6 +3,12 @@
 ## Introduction
 This project analyzes Doctor Who fanfiction scraped from ArchiveOfOurOwn and seeks to create a topic model derived from the most popular published stories in the fandom. This project was completed over the 8 week capstone term using Python and scikit-learn's LatentDirichletAllocation model.
 
+## Methods Used
+The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score outputs. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. 
+
+## Top 10 Topics
+
+
 ## Files Included
 The following files are included as part of my submission:
 - Jupyter Notbook: This file contains all code used to clean, explore, and model the data.
