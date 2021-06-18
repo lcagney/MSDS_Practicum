@@ -7,7 +7,18 @@ This project analyzes Doctor Who fanfiction scraped from ArchiveOfOurOwn and see
 The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score outputs. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. 
 
 ## Top 10 Topics
-
+| Topic #        | Theme         |
+| ------------- | ------------- |
+| 18  | General Regeneration  |
+| 0 | 13th Doctor Regeneration  |
+| 14 | TenToo AU |
+| 7 | Rose as Bad Wolf |
+| 1 | River Song's Husband |
+| 21 | Falling in Love |
+| 13 | Heaven and Hell Collide | 
+| 16 | The Family Pond | 
+| 20 | Time Lords |
+| 12 | Friends of the Doctor | 
 
 ## Files Included
 The following files are included as part of my submission:
