@@ -29,7 +29,7 @@ No stories had the dominant topic for Topics 3, 8, 9, 10, 15, 25.
 The following files are included as part of my submission:
 - Jupyter Notbook: This file contains all code used to clean, explore, and model the data.
 - CSV Files:
-  - fic_lem_nounonly_tokens_2021-05-28.csv: Cleaned, lemmatized, noun only data.
+  - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
   - topics_2021-06-05.csv: The 30 topics and associated words.
 - PowerPoint Presentation: Final presentation with insights and process
 
