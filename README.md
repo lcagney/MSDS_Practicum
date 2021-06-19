@@ -31,7 +31,7 @@ The following files are included as part of my submission:
 - CSV Files:
   - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
   - topics_2021-06-05.csv: The 30 topics and associated words.
-- PowerPoint Presentation: Final presentation with insights and process
+- Final_Presentation.pdf: Final presentation with insights and process
 
 ## References
 Chen, Yanlin. (2018). How to generate an LDA topic model for text analysis. Retrieved from https://medium.com/@yanlinc/how-to-build-a-lda-topic-model-using-from-text-601cdcbfd3a6
