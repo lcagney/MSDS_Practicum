@@ -27,11 +27,13 @@ No stories had the dominant topic for Topics 3, 8, 9, 10, 15, 25.
 
 ## Files Included
 The following files are included as part of my submission:
-- Jupyter Notbook: This file contains all code used to clean, explore, and model the data.
+- Jupyter Notbook: This file contains all code used to clean, explore, and model the data. Available as a Jupyter Notebook or PDF format.
 - CSV Files:
   - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
   - topics_2021-06-05.csv: The 30 topics and associated words.
 - Final_Presentation.pdf: Final presentation with insights and process
+
+**Not Included** : Data was too large to upoload here
 
 ## References
 Chen, Yanlin. (2018). How to generate an LDA topic model for text analysis. Retrieved from https://medium.com/@yanlinc/how-to-build-a-lda-topic-model-using-from-text-601cdcbfd3a6
