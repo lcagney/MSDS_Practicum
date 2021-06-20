@@ -7,6 +7,7 @@ This project analyzes Doctor Who fanfiction scraped from ArchiveOfOurOwn and see
 The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score outputs. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. 
 
 ## Top 10 Topics
+I named these topics after looking at the top words associated with each topic.
 | Topic #        | Theme         |
 | ------------- | ------------- |
 | 18  | General Regeneration  |
