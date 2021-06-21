@@ -7,7 +7,7 @@ This project analyzes Doctor Who fanfiction scraped from ArchiveOfOurOwn and see
 
 ## Files Included
 The following files are included as part of my submission:
-- Jupyter Notbook: This file contains all code used to clean, explore, and model the data. Available as a Jupyter Notebook or PDF format.
+- Jupyter Notbook: This file contains all code used to clean, explore, and model the data. Available as a ipynb or PDF format.
 - CSV Files:
   - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
   - topics_2021-06-05.csv: The 30 topics and associated words.
