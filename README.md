@@ -16,7 +16,7 @@ The following files are included as part of my submission:
 **Not Included** : Data was too large to upload here
 
 ## Methods Used
-The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score output. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. Additional information on tuning and the dataset is available in the [presentation deck](https://github.com/lcagney/MSDS_Practicum/blob/fc4f5865bdd294740ae267f661865b280631213f/Final_Presentation.pdf) and [presentation video](https://youtu.be/7F5ooAb74xI).
+The data was scraped from AO3 and cleaned until only lemmatized nouns remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score output. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. Additional information on tuning and the dataset is available in the [presentation deck](https://github.com/lcagney/MSDS_Practicum/blob/fc4f5865bdd294740ae267f661865b280631213f/Final_Presentation.pdf) and [presentation video](https://youtu.be/7F5ooAb74xI).
 
 
 ## Top 10 Topics
@@ -40,7 +40,7 @@ If you are not a fan of Doctor Who (specifically, Doctor Who post 2005), these t
 ## Stories in each Topic
 ![storydist](https://github.com/lcagney/MSDS_Practicum/blob/c4e58fb9e231a434c3748ac2bbc88ce14d6a2de5/Images/storycountsbytopic.jpg)
 
-No stories had the dominant topic for Topics 3, 8, 9, 10, 15, 25. Each story received a score for each topic created and the highest score is where the story ultimately got assigned to. This presents an opportunity viewing the topics as a hierarchy. Topic 18 ended up being a general catch-all topic, representing 26% of all stories.
+No stories had the dominant topic for Topics 3, 8, 9, 10, 15, 25. Each story received a score for every topic created and the highest score is where the story ultimately got assigned to. This presents an opportunity viewing the topics as a hierarchy. Topic 18 ended up being a general catch-all topic, representing 26% of all stories.
 
 ## Next Steps
 - There are opportunities for subtopic modeling to understand how closely each story resembled other topics. 
