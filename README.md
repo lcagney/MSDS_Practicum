@@ -22,18 +22,18 @@ The data was scraped from AO3 and cleaned until only lemmatized nounds remained.
 ## Top 10 Topics
 I named these topics after looking at the top words associated with each topic and validating that the words in teach topic accurately reflected what the stories were about. The topics-to-theme list is located in the CSV_Files folder.
 
-| Topic #        | Theme         |
-| ------------- | ------------- |
-| 18  | General Regeneration  |
-| 0 | 13th Doctor Regeneration  |
-| 14 | TenToo AU |
-| 7 | Rose as Bad Wolf |
-| 1 | River Song's Husband |
-| 21 | Falling in Love |
-| 13 | Heaven and Hell Collide | 
-| 16 | The Family Pond | 
-| 20 | Time Lords |
-| 12 | Friends of the Doctor | 
+| Topic #        | Theme         | Story Count | 
+| ------------- | ------------- | ------------- |
+| 18  | General Regeneration    | 366
+| 0 | 13th Doctor Regeneration  | 176
+| 14 | TenToo AU                | 144
+| 7 | Rose as Bad Wolf          | 137
+| 1 | River Song's Husband      | 113
+| 21 | Falling in Love          | 77
+| 13 | Heaven and Hell Collide  | 71
+| 16 | The Family Pond          | 51
+| 20 | Time Lords               | 43
+| 12 | Friends of the Doctor    | 43
 
 If you are not a fan of Doctor Who (specifically, Doctor Who post 2005), these topic themes will not make sense; however, someone who is a fan of the show and looking for something to read or write about, this can provide some helpful context on what fans are enjoying!
 
