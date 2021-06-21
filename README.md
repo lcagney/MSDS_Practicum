@@ -5,8 +5,19 @@ Doctor Who Logo Word Cloud
 ## Introduction
 This project analyzes Doctor Who fanfiction scraped from ArchiveOfOurOwn and seeks to create a topic model derived from the most popular published stories in the fandom. This project was completed over the 8 week capstone term using Python and scikit-learn's LatentDirichletAllocation model.
 
+## Files Included
+The following files are included as part of my submission:
+- Jupyter Notbook: This file contains all code used to clean, explore, and model the data. Available as a Jupyter Notebook or PDF format.
+- CSV Files:
+  - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
+  - topics_2021-06-05.csv: The 30 topics and associated words.
+- Final_Presentation.pdf: Final presentation with insights and process
+
+**Not Included** : Data was too large to upload here
+
 ## Methods Used
-The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score output. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. Additional information on tuning and the dataset is available in the presentation deck.
+The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score output. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. Additional information on tuning and the dataset is available in the [presentation deck](https://github.com/lcagney/MSDS_Practicum/blob/fc4f5865bdd294740ae267f661865b280631213f/Final_Presentation.pdf).
+
 
 ## Top 10 Topics
 I named these topics after looking at the top words associated with each topic and validating that the words in teach topic accurately reflected what the stories were about. The topics-to-theme list is located in the CSV_Files folder.
@@ -30,16 +41,6 @@ If you are not a fan of Doctor Who (specifically, Doctor Who post 2005), these t
 ![storydist](https://github.com/lcagney/MSDS_Practicum/blob/c4e58fb9e231a434c3748ac2bbc88ce14d6a2de5/Images/storycountsbytopic.jpg)
 
 No stories had the dominant topic for Topics 3, 8, 9, 10, 15, 25. Each story received a score for each topic created and the highest score is where the story ultimately got assigned to. This presents an opportunity viewing the topics as a hierarchy. Topic 18 ended up being a general catch-all topic, representing 26% of all stories.
-
-## Files Included
-The following files are included as part of my submission:
-- Jupyter Notbook: This file contains all code used to clean, explore, and model the data. Available as a Jupyter Notebook or PDF format.
-- CSV Files:
-  - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
-  - topics_2021-06-05.csv: The 30 topics and associated words.
-- Final_Presentation.pdf: Final presentation with insights and process
-
-**Not Included** : Data was too large to upoload here
 
 ## Next Steps
 - There are opportunities for subtopic modeling to understand how closely each story resembled other topics. 
