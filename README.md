@@ -11,7 +11,7 @@ The following files are included as part of my submission:
 - CSV Files:
   - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
   - topics_2021-06-05.csv: The 30 topics and associated words.
-- Final_Presentation.pdf: Final presentation with insights and process
+- Final_Presentation.pdf: Final presentation with insights and process. The file must be downloaded for the links to work.
 
 **Not Included** : Data was too large to upload here
 
