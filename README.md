@@ -1,5 +1,6 @@
 # MSDS_Practicum_1
 ![dr who logo](https://github.com/lcagney/MSDS_Practicum/blob/9f9040d216187e4c9274f969115aaeee885b6311/Images/DoctorWhoLogo_WC.png)
+
 ## Introduction
 This project analyzes Doctor Who fanfiction scraped from ArchiveOfOurOwn and seeks to create a topic model derived from the most popular published stories in the fandom. This project was completed over the 8 week capstone term using Python and scikit-learn's LatentDirichletAllocation model.
 
@@ -22,7 +23,7 @@ I named these topics after looking at the top words associated with each topic a
 | 20 | Time Lords |
 | 12 | Friends of the Doctor | 
 
-If you are not a fan of Doctor Who (specifically, Doctor Who post 2005), these topic themes will not make sense; however, someone who is a fan of the show and lookign for something to read or write about, this can provide some helpful context on what fans are enjoying!
+If you are not a fan of Doctor Who (specifically, Doctor Who post 2005), these topic themes will not make sense; however, someone who is a fan of the show and looking for something to read or write about, this can provide some helpful context on what fans are enjoying!
 
 ## Stories in each Topic
 ![storydist](https://github.com/lcagney/MSDS_Practicum/blob/c4e58fb9e231a434c3748ac2bbc88ce14d6a2de5/Images/storycountsbytopic.jpg)
@@ -41,15 +42,15 @@ The following files are included as part of my submission:
 
 ## Next Steps
 - There are opportunities for subtopic modeling to understand how closely each story resembled other topics. 
-- Understanding the smaller topics. They seem to be crossovers with other fandoms and the presence of fandom specific words biased those topics.
-- Mpre comprehensive cleaning: merging bigrams or trigrams
+- Understanding the smaller topics. They seem to be crossovers with other fandoms and the presence of fandom specific words biased the creation of those topics.
+- More comprehensive cleaning: merging bigrams or trigrams
 - Testing other topic model paradigms
 - Build a better dataset: full stories, no crossovers etc.
   -  I initially went with chapter ones because I could pull in a greater amount of variety than a smaller dataset with full stories of varying lengths.
 
 ## Conclusion
 - Difficult to create interpretable topics
-- Required extensive domain knowledge on the chosen fandom
+- Required **extensive** domain knowledge on the chosen fandom
   -  This means this is not easily scalable to other fandoms as I initally hoped.
 -  It was fun to create names of themes!
 
