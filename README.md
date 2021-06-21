@@ -16,7 +16,7 @@ The following files are included as part of my submission:
 **Not Included** : Data was too large to upload here
 
 ## Methods Used
-The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score output. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. Additional information on tuning and the dataset is available in the [presentation deck](https://github.com/lcagney/MSDS_Practicum/blob/fc4f5865bdd294740ae267f661865b280631213f/Final_Presentation.pdf).
+The data was scraped from AO3 and cleaned until only lemmatized nounds remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score output. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. Additional information on tuning and the dataset is available in the [presentation deck](https://github.com/lcagney/MSDS_Practicum/blob/fc4f5865bdd294740ae267f661865b280631213f/Final_Presentation.pdf) and [presentation video](https://youtu.be/7F5ooAb74xI).
 
 
 ## Top 10 Topics
