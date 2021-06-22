@@ -11,9 +11,9 @@ The following files are included as part of my submission:
 - CSV Files:
   - TopicThemes.xlsx: The final themes determined by the 30 topics generated from the model.
   - topics_2021-06-05.csv: The 30 topics and associated words.
+  - fic_lem_nounonly_tokens_2021-05-28.csv.zip: Had to be zipped because it was too big otherwise!
 - Final_Presentation.pdf: Final presentation with insights and process. The file must be downloaded for the links to work.
 
-**Not Included** : Data was too large to upload here
 
 ## Methods Used
 The data was scraped from AO3 and cleaned until only lemmatized nouns remained. The topics were created by tuning the max_df, min_df, n_components inputs and perplexity score output. The final model was created using 30 topics, with a min_df of 25, max_df of 70%. Additional information on tuning and the dataset is available in the [presentation deck](https://github.com/lcagney/MSDS_Practicum/blob/fc4f5865bdd294740ae267f661865b280631213f/Final_Presentation.pdf) and [presentation video](https://youtu.be/7F5ooAb74xI).
